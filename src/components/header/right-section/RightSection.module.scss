@@ -1,0 +1,25 @@
+@import "../../../styles/mixin.moudel.scss";
+.rightSection {
+  @include flex;
+  width: 33.33%;
+  height: 100%;
+  justify-content: flex-end;
+  & .bagContainer {
+    @include flex;
+    justify-content: flex-end;
+    height: 100%;
+    width: 40px;
+    position: relative;
+    margin-left: 10px;
+    z-index: 1;
+    & .text {
+      position: absolute;
+      top: 50%;
+      right: 0%;
+      transform: translate(-55%, -43%);
+      font-weight: 500;
+      font-size: 10px;
+      z-index: -1;
+    }
+  }
+}

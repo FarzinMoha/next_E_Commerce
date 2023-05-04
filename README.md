@@ -1,8 +1,8 @@
 # E-COMMERCE WEBSITE 
 1. Next.js
 2. Sass
-3. StrApi
-4. redux/toolkit
+3. redux/toolkit
+4. airtable
 
 
 ## Install Packages:

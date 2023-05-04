@@ -1,0 +1,9 @@
+@import '../../../styles/mixin.moudel.scss';
+.container{
+    @include flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    height: 50px;
+    background-color: var(--gray1);
+}

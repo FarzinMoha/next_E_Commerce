@@ -1,0 +1,8 @@
+export default {
+    gray1:'rgb(245, 245, 245)',
+    gray2:'rgb(229, 229, 229)',
+    gray3:'rgb(126, 126, 126)',
+    gray4:'rgb(117, 117, 117)',
+    black:'rgb(17, 17, 17)',   
+    white:'rgb(255, 255, 255)'
+}

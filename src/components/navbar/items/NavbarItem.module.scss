@@ -1,0 +1,17 @@
+@import '../../../styles/mixin.moudel.scss';
+.item{
+    @include flex;
+    & .text{
+        font-size: 12px;
+        font-weight: 400;
+        color: var(--black);
+        transition: .2s;
+        cursor: pointer;
+        &:hover{
+            color: var(--gray4);
+        }
+    }
+    & .line{
+        margin: 0px 10px;
+    }
+}
